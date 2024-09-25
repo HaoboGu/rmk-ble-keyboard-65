@@ -5,145 +5,6 @@
 	(uuid "c28fb4f4-ed8e-4197-96de-8d0a1d82db71")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector_Generic:Conn_01x02"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x02"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x02_1_1"
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Connector_Generic:Conn_01x03"
 			(pin_names
 				(offset 1.016) hide)
@@ -2039,6 +1900,14 @@
 		(uuid "81536b84-5bd2-4a55-9a3a-873f222f2094")
 	)
 	(no_connect
+		(at 85.09 77.47)
+		(uuid "91911abb-191e-4f15-9a1d-c01d7234cbd8")
+	)
+	(no_connect
+		(at 38.1 83.82)
+		(uuid "caace310-8390-4363-931f-cda1f3edbf32")
+	)
+	(no_connect
 		(at 58.42 83.82)
 		(uuid "e5f46b88-4247-48a8-af68-731b747afdb9")
 	)
@@ -2074,16 +1943,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 77.47) (xy 85.09 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15e37c58-ef15-4c1b-a90e-30b1575d3a23")
-	)
-	(wire
-		(pts
 			(xy 179.07 45.72) (xy 179.07 49.53)
 		)
 		(stroke
@@ -2101,16 +1960,6 @@
 			(type default)
 		)
 		(uuid "22741ebc-ca10-4b9f-814f-53570470b3a6")
-	)
-	(wire
-		(pts
-			(xy 88.9 82.55) (xy 92.71 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "425b7638-c3de-49ef-81c5-85e9a8466d43")
 	)
 	(wire
 		(pts
@@ -2161,16 +2010,6 @@
 			(type default)
 		)
 		(uuid "6ae63d2a-7bf1-40a4-b936-b8f57f97ff80")
-	)
-	(wire
-		(pts
-			(xy 88.9 77.47) (xy 88.9 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84a5f4db-934f-44f6-a1e8-522529b62a01")
 	)
 	(wire
 		(pts
@@ -2349,17 +2188,6 @@
 			(justify right bottom)
 		)
 		(uuid "ce48cced-4e98-4534-8d76-f93e2f85f16b")
-	)
-	(label "caps"
-		(at 38.1 83.82 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "dccfd7f3-2aa9-431c-9b0b-56c3fb51c5f3")
 	)
 	(label "caps"
 		(at 161.29 45.72 0)
@@ -2781,7 +2609,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "210c6814-5807-4989-b5a8-34e8f6cf2e57")
-		(property "Reference" "D62"
+		(property "Reference" "D69"
 			(at 165.1 63.8174 90)
 			(effects
 				(font
@@ -2835,7 +2663,7 @@
 		(instances
 			(project "rmk-ble-keyboard"
 				(path "/5823a915-d0ed-4262-9b2d-d2247405cf69/050c3acc-27b4-48c0-bd7b-f7f600c7fd2a"
-					(reference "D62")
+					(reference "D69")
 					(unit 1)
 				)
 			)
@@ -2851,7 +2679,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2eb6640a-cbce-405b-a8bc-7500f9cc7cb0")
-		(property "Reference" "J4"
+		(property "Reference" "J5"
 			(at 129.54 71.1199 0)
 			(effects
 				(font
@@ -2908,7 +2736,7 @@
 		(instances
 			(project "rmk-ble-keyboard"
 				(path "/5823a915-d0ed-4262-9b2d-d2247405cf69/050c3acc-27b4-48c0-bd7b-f7f600c7fd2a"
-					(reference "J4")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -2924,7 +2752,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "446105f4-c678-4209-b1bd-e030651e5777")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR020"
 			(at 111.76 81.28 0)
 			(effects
 				(font
@@ -2974,7 +2802,7 @@
 		(instances
 			(project "rmk-ble-keyboard"
 				(path "/5823a915-d0ed-4262-9b2d-d2247405cf69/050c3acc-27b4-48c0-bd7b-f7f600c7fd2a"
-					(reference "#PWR025")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -2990,7 +2818,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "46be9f1f-40ba-4c9e-ae05-d16f76289b37")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR022"
 			(at 68.58 90.17 0)
 			(effects
 				(font
@@ -3040,7 +2868,7 @@
 		(instances
 			(project "rmk-ble-keyboard"
 				(path "/5823a915-d0ed-4262-9b2d-d2247405cf69/050c3acc-27b4-48c0-bd7b-f7f600c7fd2a"
-					(reference "#PWR020")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -3056,7 +2884,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "573c0422-9d1e-4bf0-a809-2c1f5b6c4c0c")
-		(property "Reference" "J3"
+		(property "Reference" "J4"
 			(at 129.54 48.2599 0)
 			(effects
 				(font
@@ -3116,7 +2944,7 @@
 		(instances
 			(project "rmk-ble-keyboard"
 				(path "/5823a915-d0ed-4262-9b2d-d2247405cf69/050c3acc-27b4-48c0-bd7b-f7f600c7fd2a"
-					(reference "J3")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -3198,7 +3026,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66b736fa-d7f8-4e96-99b1-79198a71a812")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR017"
 			(at 198.12 74.93 0)
 			(effects
 				(font
@@ -3248,7 +3076,7 @@
 		(instances
 			(project "rmk-ble-keyboard"
 				(path "/5823a915-d0ed-4262-9b2d-d2247405cf69/050c3acc-27b4-48c0-bd7b-f7f600c7fd2a"
-					(reference "#PWR07")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -3333,7 +3161,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a8d3c82-37d7-424f-9c33-1ee68ae51161")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR019"
 			(at 179.07 76.2 0)
 			(effects
 				(font
@@ -3383,7 +3211,7 @@
 		(instances
 			(project "rmk-ble-keyboard"
 				(path "/5823a915-d0ed-4262-9b2d-d2247405cf69/050c3acc-27b4-48c0-bd7b-f7f600c7fd2a"
-					(reference "#PWR031")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -3398,7 +3226,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8ccfb8ef-e292-47e4-ac0b-39190788a25c")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR016"
 			(at 19.05 55.88 0)
 			(effects
 				(font
@@ -3449,7 +3277,7 @@
 		(instances
 			(project "rmk-ble-keyboard"
 				(path "/5823a915-d0ed-4262-9b2d-d2247405cf69/050c3acc-27b4-48c0-bd7b-f7f600c7fd2a"
-					(reference "#PWR03")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -3534,7 +3362,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a542addd-a023-44a6-8e03-1a0f7682fb80")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR018"
 			(at 161.29 76.2 0)
 			(effects
 				(font
@@ -3584,7 +3412,7 @@
 		(instances
 			(project "rmk-ble-keyboard"
 				(path "/5823a915-d0ed-4262-9b2d-d2247405cf69/050c3acc-27b4-48c0-bd7b-f7f600c7fd2a"
-					(reference "#PWR028")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -3600,7 +3428,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b40d0ae5-1888-4989-8b01-6d3cb9949fcb")
-		(property "Reference" "D64"
+		(property "Reference" "D70"
 			(at 182.88 63.8174 90)
 			(effects
 				(font
@@ -3654,7 +3482,7 @@
 		(instances
 			(project "rmk-ble-keyboard"
 				(path "/5823a915-d0ed-4262-9b2d-d2247405cf69/050c3acc-27b4-48c0-bd7b-f7f600c7fd2a"
-					(reference "D64")
+					(reference "D70")
 					(unit 1)
 				)
 			)
@@ -3669,7 +3497,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ba5a294d-874f-403c-96de-408d67956267")
-		(property "Reference" "R6"
+		(property "Reference" "R9"
 			(at 163.83 52.0699 0)
 			(effects
 				(font
@@ -3723,73 +3551,7 @@
 		(instances
 			(project "rmk-ble-keyboard"
 				(path "/5823a915-d0ed-4262-9b2d-d2247405cf69/050c3acc-27b4-48c0-bd7b-f7f600c7fd2a"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 92.71 85.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d172b6f4-9068-4553-b7cd-f8345ee7ba88")
-		(property "Reference" "#PWR026"
-			(at 92.71 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 92.71 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 92.71 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 92.71 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 92.71 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "49dc75a5-14b4-487b-a03d-f2a97dcf2ff8")
-		)
-		(instances
-			(project "rmk-ble-keyboard"
-				(path "/5823a915-d0ed-4262-9b2d-d2247405cf69/050c3acc-27b4-48c0-bd7b-f7f600c7fd2a"
-					(reference "#PWR026")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -3805,7 +3567,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e090d29d-89be-4ebf-ac93-03bbca3a92d7")
-		(property "Reference" "U1"
+		(property "Reference" "U4"
 			(at 55.245 30.48 0)
 			(effects
 				(font
@@ -3980,7 +3742,7 @@
 		(instances
 			(project "rmk-ble-keyboard"
 				(path "/5823a915-d0ed-4262-9b2d-d2247405cf69/050c3acc-27b4-48c0-bd7b-f7f600c7fd2a"
-					(reference "U1")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -3996,7 +3758,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e57fc753-ba1c-4fd1-aec1-254ef5dbb66c")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR015"
 			(at 121.92 59.69 0)
 			(effects
 				(font
@@ -4046,7 +3808,7 @@
 		(instances
 			(project "rmk-ble-keyboard"
 				(path "/5823a915-d0ed-4262-9b2d-d2247405cf69/050c3acc-27b4-48c0-bd7b-f7f600c7fd2a"
-					(reference "#PWR022")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -4114,76 +3876,6 @@
 			(project "rmk-ble-keyboard"
 				(path "/5823a915-d0ed-4262-9b2d-d2247405cf69/050c3acc-27b4-48c0-bd7b-f7f600c7fd2a"
 					(reference "Y1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 97.79 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f36388ae-9b63-484c-ab35-242d17bf9f32")
-		(property "Reference" "J5"
-			(at 100.33 82.5499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Reset"
-			(at 100.33 85.0899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical"
-			(at 97.79 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 97.79 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 97.79 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f10eaf29-9ca4-4c47-9f91-ac8b4466859c")
-		)
-		(pin "2"
-			(uuid "ce56d965-7501-4b99-a4c6-872fab0e5d6c")
-		)
-		(instances
-			(project "rmk-ble-keyboard"
-				(path "/5823a915-d0ed-4262-9b2d-d2247405cf69/050c3acc-27b4-48c0-bd7b-f7f600c7fd2a"
-					(reference "J5")
 					(unit 1)
 				)
 			)

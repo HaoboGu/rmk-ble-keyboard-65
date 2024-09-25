@@ -58,7 +58,10 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "courtyards_overlap|62007501|106320001|18bfc2f6-ef95-42aa-a9b6-5138d203281a|9ccd4083-6a9e-4d13-aa40-f9fb3bdea031",
+        "courtyards_overlap|62045001|107910001|9ccd4083-6a9e-4d13-aa40-f9fb3bdea031|d9cda807-68da-477f-9157-e2f0ea7adb8e"
+      ],
       "meta": {
         "version": 2
       },
@@ -66,7 +69,7 @@
         "annular_width": "error",
         "clearance": "error",
         "connection_width": "warning",
-        "copper_edge_clearance": "warning",
+        "copper_edge_clearance": "ignore",
         "copper_sliver": "warning",
         "courtyards_overlap": "error",
         "diff_pair_gap_out_of_range": "error",
@@ -76,7 +79,7 @@
         "extra_footprint": "warning",
         "footprint": "error",
         "footprint_symbol_mismatch": "warning",
-        "footprint_type_mismatch": "warning",
+        "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
         "hole_near_hole": "error",
         "holes_co_located": "warning",
@@ -96,12 +99,12 @@
         "padstack": "error",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_edge_clearance": "warning",
-        "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_edge_clearance": "ignore",
+        "silk_over_copper": "ignore",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
-        "starved_thermal": "warning",
+        "starved_thermal": "ignore",
         "text_height": "warning",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
@@ -550,11 +553,22 @@
       "/power/Vin": "Power",
       "3V3": "Power",
       "GND": "Power",
+      "Net-(BAT_SW1-B)": "Power",
       "Net-(D63--)": "Power",
+      "Net-(D68--)": "Power",
       "Net-(J6-Pin_1)": "Power",
       "VBUS": "Power"
     },
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Power",
+        "pattern": "/power/Li+"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/power/Vin"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {

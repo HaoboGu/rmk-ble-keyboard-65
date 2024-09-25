@@ -471,12 +471,6 @@
 		(uuid "3ce56a26-1f05-4534-be6d-84d393a603c8")
 	)
 	(junction
-		(at 314.96 161.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4110d5ea-a159-4113-885f-a3c981b52f83")
-	)
-	(junction
 		(at 365.76 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -517,6 +511,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "596fc568-d260-4300-8854-86009f36fb1a")
+	)
+	(junction
+		(at 330.2 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b8574af-7daa-4b91-bbe5-0798a222c28e")
 	)
 	(junction
 		(at 203.2 101.6)
@@ -783,6 +783,12 @@
 		(uuid "b6475c0b-42d5-4221-bbbe-77be8770310f")
 	)
 	(junction
+		(at 340.36 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b8997bd5-7660-44fc-8242-7f4be667fb88")
+	)
+	(junction
 		(at 137.16 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -931,12 +937,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f0960dfd-43cd-4ebd-8c49-655e55a305e7")
-	)
-	(junction
-		(at 304.8 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f1ae3bd1-5bdb-48e7-8734-77e8a72e473c")
 	)
 	(junction
 		(at 279.4 127)
@@ -1296,13 +1296,13 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 161.29) (xy 365.76 161.29)
+			(xy 340.36 152.4) (xy 340.36 153.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "298e63b8-0016-4b8d-8df2-d1778eca3b08")
+		(uuid "29720ec1-5487-4e65-b5a6-8f0dc5026228")
 	)
 	(wire
 		(pts
@@ -1486,16 +1486,6 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 127) (xy 304.8 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a53a7f6-a7aa-4c6d-9922-084b9a8550e0")
-	)
-	(wire
-		(pts
 			(xy 365.76 153.67) (xy 365.76 152.4)
 		)
 		(stroke
@@ -1586,7 +1576,7 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 101.6) (xy 330.2 177.8)
+			(xy 330.2 101.6) (xy 330.2 152.4)
 		)
 		(stroke
 			(width 0)
@@ -2046,7 +2036,7 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 161.29) (xy 314.96 161.29)
+			(xy 289.56 161.29) (xy 340.36 161.29)
 		)
 		(stroke
 			(width 0)
@@ -2253,6 +2243,16 @@
 			(type default)
 		)
 		(uuid "9e45c0c1-88d6-4e5a-bbea-ff6e1f9ab005")
+	)
+	(wire
+		(pts
+			(xy 330.2 152.4) (xy 330.2 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ee34bb1-c2a9-4abd-8250-ba8fb9b16a71")
 	)
 	(wire
 		(pts
@@ -2653,6 +2653,16 @@
 			(type default)
 		)
 		(uuid "d2838004-88e5-4086-955e-355c110957dd")
+	)
+	(wire
+		(pts
+			(xy 340.36 161.29) (xy 365.76 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d34e10ea-44dc-480e-b961-1908d58c1fcd")
 	)
 	(wire
 		(pts
@@ -3254,7 +3264,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00d08c2f-6fd8-48e1-b021-160e695e1ab6")
-		(property "Reference" "SW63"
+		(property "Reference" "SW62"
 			(at 157.48 170.18 0)
 			(effects
 				(font
@@ -3306,7 +3316,7 @@
 		(instances
 			(project "rmk-ble-keyboard"
 				(path "/5823a915-d0ed-4262-9b2d-d2247405cf69/6def72d6-87e9-41ed-89a1-5d51912b2db4"
-					(reference "SW63")
+					(reference "SW62")
 					(unit 1)
 				)
 			)
@@ -3634,7 +3644,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0cf24981-3c5c-484b-8bb3-a0998034e307")
-		(property "Reference" "D70"
+		(property "Reference" "D67"
 			(at 393.7 181.6099 90)
 			(effects
 				(font
@@ -3706,7 +3716,7 @@
 		(instances
 			(project "rmk-ble-keyboard"
 				(path "/5823a915-d0ed-4262-9b2d-d2247405cf69/6def72d6-87e9-41ed-89a1-5d51912b2db4"
-					(reference "D70")
+					(reference "D67")
 					(unit 1)
 				)
 			)
@@ -3722,7 +3732,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1282c325-762b-4350-80f5-14bd64223dcf")
-		(property "Reference" "D65"
+		(property "Reference" "D62"
 			(at 165.1 181.6099 90)
 			(effects
 				(font
@@ -3794,7 +3804,7 @@
 		(instances
 			(project "rmk-ble-keyboard"
 				(path "/5823a915-d0ed-4262-9b2d-d2247405cf69/6def72d6-87e9-41ed-89a1-5d51912b2db4"
-					(reference "D65")
+					(reference "D62")
 					(unit 1)
 				)
 			)
@@ -4289,6 +4299,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 335.28 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ae5f23d-3f68-4744-b6fb-b2ae6052639e")
+		(property "Reference" "SW56"
+			(at 335.28 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "rshift"
+			(at 335.28 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated_1.75u"
+			(at 335.28 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 335.28 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 335.28 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6427cc6b-a7e2-48d3-b173-490b7d7017c6")
+		)
+		(pin "1"
+			(uuid "6c95c283-fa76-4a0f-b6c8-a4173c8538bd")
+		)
+		(instances
+			(project "rmk-ble-keyboard"
+				(path "/5823a915-d0ed-4262-9b2d-d2247405cf69/6def72d6-87e9-41ed-89a1-5d51912b2db4"
+					(reference "SW56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:1N4148W")
 		(at 340.36 81.28 90)
 		(unit 1)
@@ -4542,7 +4620,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26438631-a2dc-4581-988a-c53623a884d4")
-		(property "Reference" "D66"
+		(property "Reference" "D63"
 			(at 266.7 181.6099 90)
 			(effects
 				(font
@@ -4614,7 +4692,7 @@
 		(instances
 			(project "rmk-ble-keyboard"
 				(path "/5823a915-d0ed-4262-9b2d-d2247405cf69/6def72d6-87e9-41ed-89a1-5d51912b2db4"
-					(reference "D66")
+					(reference "D63")
 					(unit 1)
 				)
 			)
@@ -4998,7 +5076,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated_2.75u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated_1.00u"
 			(at 386.08 147.32 0)
 			(effects
 				(font
@@ -6414,7 +6492,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "57bede96-3122-42c7-a81f-0d4490f1785a")
-		(property "Reference" "SW64"
+		(property "Reference" "SW63"
 			(at 259.08 170.18 0)
 			(effects
 				(font
@@ -6466,7 +6544,7 @@
 		(instances
 			(project "rmk-ble-keyboard"
 				(path "/5823a915-d0ed-4262-9b2d-d2247405cf69/6def72d6-87e9-41ed-89a1-5d51912b2db4"
-					(reference "SW64")
+					(reference "SW63")
 					(unit 1)
 				)
 			)
@@ -6842,7 +6920,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5f905f46-0350-4f0f-a6e1-5ec69b52fb2a")
-		(property "Reference" "SW65"
+		(property "Reference" "SW64"
 			(at 284.48 170.18 0)
 			(effects
 				(font
@@ -6894,7 +6972,7 @@
 		(instances
 			(project "rmk-ble-keyboard"
 				(path "/5823a915-d0ed-4262-9b2d-d2247405cf69/6def72d6-87e9-41ed-89a1-5d51912b2db4"
-					(reference "SW65")
+					(reference "SW64")
 					(unit 1)
 				)
 			)
@@ -7338,7 +7416,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "67b16de1-fa30-469d-b101-c7e9bb52a3e6")
-		(property "Reference" "SW66"
+		(property "Reference" "SW65"
 			(at 335.28 170.18 0)
 			(effects
 				(font
@@ -7354,7 +7432,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated_1.25u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated_1.00u"
 			(at 335.28 172.72 0)
 			(effects
 				(font
@@ -7390,7 +7468,7 @@
 		(instances
 			(project "rmk-ble-keyboard"
 				(path "/5823a915-d0ed-4262-9b2d-d2247405cf69/6def72d6-87e9-41ed-89a1-5d51912b2db4"
-					(reference "SW66")
+					(reference "SW65")
 					(unit 1)
 				)
 			)
@@ -7962,7 +8040,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "758df15d-9b5a-418c-8454-2232b969a7d7")
-		(property "Reference" "D67"
+		(property "Reference" "D64"
 			(at 292.1 181.6099 90)
 			(effects
 				(font
@@ -8034,7 +8112,7 @@
 		(instances
 			(project "rmk-ble-keyboard"
 				(path "/5823a915-d0ed-4262-9b2d-d2247405cf69/6def72d6-87e9-41ed-89a1-5d51912b2db4"
-					(reference "D67")
+					(reference "D64")
 					(unit 1)
 				)
 			)
@@ -8134,7 +8212,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated_2.75u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated_1.00u"
 			(at 360.68 147.32 0)
 			(effects
 				(font
@@ -9150,7 +9228,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated_2.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated_1.00u"
 			(at 386.08 71.12 0)
 			(effects
 				(font
@@ -9290,7 +9368,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b211242-3f27-4d7c-9abd-54420c205d7c")
-		(property "Reference" "SW68"
+		(property "Reference" "SW67"
 			(at 386.08 170.18 0)
 			(effects
 				(font
@@ -9306,7 +9384,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated_1.25u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated_1.00u"
 			(at 386.08 172.72 0)
 			(effects
 				(font
@@ -9342,7 +9420,7 @@
 		(instances
 			(project "rmk-ble-keyboard"
 				(path "/5823a915-d0ed-4262-9b2d-d2247405cf69/6def72d6-87e9-41ed-89a1-5d51912b2db4"
-					(reference "SW68")
+					(reference "SW67")
 					(unit 1)
 				)
 			)
@@ -10586,7 +10664,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6f7f9a8-996d-4802-8d21-158fdb57cb47")
-		(property "Reference" "D69"
+		(property "Reference" "D66"
 			(at 368.3 181.6099 90)
 			(effects
 				(font
@@ -10658,7 +10736,7 @@
 		(instances
 			(project "rmk-ble-keyboard"
 				(path "/5823a915-d0ed-4262-9b2d-d2247405cf69/6def72d6-87e9-41ed-89a1-5d51912b2db4"
-					(reference "D69")
+					(reference "D66")
 					(unit 1)
 				)
 			)
@@ -12254,7 +12332,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce1b4af7-c82c-47da-bb71-1a83cd2809f8")
-		(property "Reference" "SW67"
+		(property "Reference" "SW66"
 			(at 360.68 170.18 0)
 			(effects
 				(font
@@ -12270,7 +12348,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated_1.25u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated_1.00u"
 			(at 360.68 172.72 0)
 			(effects
 				(font
@@ -12306,7 +12384,7 @@
 		(instances
 			(project "rmk-ble-keyboard"
 				(path "/5823a915-d0ed-4262-9b2d-d2247405cf69/6def72d6-87e9-41ed-89a1-5d51912b2db4"
-					(reference "SW67")
+					(reference "SW66")
 					(unit 1)
 				)
 			)
@@ -12322,7 +12400,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cfeffe88-e82a-4dfd-82d0-607f4e9f930c")
-		(property "Reference" "D68"
+		(property "Reference" "D65"
 			(at 342.9 181.6099 90)
 			(effects
 				(font
@@ -12394,7 +12472,7 @@
 		(instances
 			(project "rmk-ble-keyboard"
 				(path "/5823a915-d0ed-4262-9b2d-d2247405cf69/6def72d6-87e9-41ed-89a1-5d51912b2db4"
-					(reference "D68")
+					(reference "D65")
 					(unit 1)
 				)
 			)
@@ -12426,7 +12504,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated_2.25u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated_1.00u"
 			(at 386.08 121.92 0)
 			(effects
 				(font
@@ -12551,6 +12629,94 @@
 			(project "rmk-ble-keyboard"
 				(path "/5823a915-d0ed-4262-9b2d-d2247405cf69/6def72d6-87e9-41ed-89a1-5d51912b2db4"
 					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 340.36 157.48 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d4948177-73a0-4a00-a2a4-38c6d7a8e5f0")
+		(property "Reference" "D56"
+			(at 342.9 156.2099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 342.9 158.7499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 344.805 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 340.36 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 340.36 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 340.36 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 340.36 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1fa8652f-ed86-452e-adb9-33258deaf2e8")
+		)
+		(pin "1"
+			(uuid "07e780b9-e71a-4bdf-81e0-892a170dc5a4")
+		)
+		(instances
+			(project "rmk-ble-keyboard"
+				(path "/5823a915-d0ed-4262-9b2d-d2247405cf69/6def72d6-87e9-41ed-89a1-5d51912b2db4"
+					(reference "D56")
 					(unit 1)
 				)
 			)
@@ -13026,74 +13192,6 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 309.88 152.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ec6365c9-c3d1-4b91-893f-afa7ac089c2a")
-		(property "Reference" "SW56"
-			(at 309.88 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "rshift"
-			(at 309.88 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated_2.75u"
-			(at 309.88 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 309.88 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 309.88 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "564519f4-1562-4ecf-a018-e489336e7952")
-		)
-		(pin "1"
-			(uuid "997d27f6-1fd0-41c2-890c-37cd043f547e")
-		)
-		(instances
-			(project "rmk-ble-keyboard"
-				(path "/5823a915-d0ed-4262-9b2d-d2247405cf69/6def72d6-87e9-41ed-89a1-5d51912b2db4"
-					(reference "SW56")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
 		(at 309.88 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13473,94 +13571,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148W")
-		(at 314.96 157.48 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f99d0cea-eb98-4845-b9dd-79386fb2aad6")
-		(property "Reference" "D56"
-			(at 317.5 156.2099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N4148W"
-			(at 317.5 158.7499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 319.405 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
-			(at 314.96 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
-			(at 314.96 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 314.96 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 314.96 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f592252c-e248-41e2-9bdb-5ebf8e63e52b")
-		)
-		(pin "1"
-			(uuid "2ebca93d-7a74-4484-b479-553c8c0c3df6")
-		)
-		(instances
-			(project "rmk-ble-keyboard"
-				(path "/5823a915-d0ed-4262-9b2d-d2247405cf69/6def72d6-87e9-41ed-89a1-5d51912b2db4"
-					(reference "D56")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 81.28 152.4 0)
 		(unit 1)
@@ -13654,7 +13664,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated_1.50u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated_1.00u"
 			(at 386.08 96.52 0)
 			(effects
 				(font
