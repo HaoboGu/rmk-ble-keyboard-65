@@ -76560,7 +76560,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "rmk ble keyboard %65\n\n         -- rev 1.0"
+	(gr_text "rmk ble keyboard %65\n\n         -- haobogu"
 		(at 140.56 140.78 0)
 		(layer "F.SilkS")
 		(uuid "bf9584df-ec52-46f7-85f9-d0cfd505d719")
