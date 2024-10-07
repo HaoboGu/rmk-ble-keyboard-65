@@ -38,6 +38,8 @@ fn main() {
 
     println!("cargo:rerun-if-changed=keyboard.toml");
 
+    println!("cargo:rerun-if-changed=vial.json");
+
     // Specify linker arguments.
 
     // `--nmagic` is required if memory section addresses are not aligned to 0x10000,

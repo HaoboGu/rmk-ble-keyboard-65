@@ -4512,6 +4512,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 81.28) (xy 53.34 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8b5259f-2b3a-4525-af56-d53aca99400b")
+	)
+	(wire
+		(pts
 			(xy 182.88 55.88) (xy 179.07 55.88)
 		)
 		(stroke
@@ -4892,6 +4902,17 @@
 			(justify left bottom)
 		)
 		(uuid "b6497b8a-15ab-40b4-99a3-60098ec9d4d0")
+	)
+	(label "caps"
+		(at 53.34 81.28 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c51e29d0-89a1-4553-b4e6-159dfbed0835")
 	)
 	(label "Vin"
 		(at 156.21 73.66 180)
