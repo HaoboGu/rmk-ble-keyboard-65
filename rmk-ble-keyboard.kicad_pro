@@ -545,6 +545,8 @@
     "netclass_assignments": {
       "/mcu/D+": "Usb",
       "/mcu/D-": "Usb",
+      "/mcu/Li+": "Power",
+      "/mcu/Vin": "Power",
       "/power/D+": "Usb",
       "/power/D-": "Usb",
       "/power/DN": "Usb",
@@ -699,10 +701,6 @@
     [
       "6def72d6-87e9-41ed-89a1-5d51912b2db4",
       "matrix"
-    ],
-    [
-      "80617de3-f245-4e85-9542-0f05c79e7b1e",
-      "power"
     ],
     [
       "050c3acc-27b4-48c0-bd7b-f7f600c7fd2a",
