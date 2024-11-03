@@ -16,7 +16,7 @@ output_pins = ["P0_30", "P0_31", "P0_29", "P0_02", "P0_05", "P1_09", "P0_13", "P
 [layout]
 rows = 5
 cols = 15
-layers = 3
+layers = 4
 keymap = [
     [
         ["Grave", "Kc1", "Kc2", "Kc3", "Kc4", "Kc5", "Kc6", "Kc7", "Kc8", "Kc9", "Kc0", "Minus", "Equal", "Backspace", "Delete"],
