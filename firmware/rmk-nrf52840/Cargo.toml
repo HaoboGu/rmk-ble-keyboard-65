@@ -10,7 +10,8 @@ edition = "2021"
 license = "MIT OR Apache-2.0"
 
 [dependencies]
-rmk = { version = "0.4", features = [
+# TODO: 测试纽扣电池功耗
+rmk = { version = "0.5", path = "/Users/haobogu/Projects/keyboard/rmk/rmk", features = [
     "nrf52840_ble",
     "col2row",
     "rapid_debouncer",
