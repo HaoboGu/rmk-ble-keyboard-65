@@ -334,7 +334,7 @@ checksum = "5794414bc20e0d750f145bc0e82366b19dd078e9e075e8331fb8dd069a1cb6a2"
 dependencies = [
  "defmt",
  "embassy-futures",
- "embassy-sync",
+ "embassy-sync 0.6.0",
  "embassy-time",
  "embedded-hal 0.2.7",
  "embedded-hal 1.0.0",
@@ -406,7 +406,7 @@ checksum = "4818c32afec43e3cae234f324bad9a976c9aa7501022d26ff60a4017a1a006b7"
 dependencies = [
  "embassy-futures",
  "embassy-net-driver",
- "embassy-sync",
+ "embassy-sync 0.6.0",
 ]
 
 [[package]]
@@ -424,7 +424,7 @@ dependencies = [
  "document-features",
  "embassy-embedded-hal",
  "embassy-hal-internal",
- "embassy-sync",
+ "embassy-sync 0.6.0",
  "embassy-time",
  "embassy-time-driver",
  "embassy-usb-driver",
@@ -449,6 +449,19 @@ dependencies = [
  "nrf9120-pac",
  "nrf9160-pac",
  "rand_core",
+]
+
+[[package]]
+name = "embassy-sync"
+version = "0.5.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "dd938f25c0798db4280fcd8026bf4c2f48789aebf8f77b6e5cf8a7693ba114ec"
+dependencies = [
+ "cfg-if",
+ "critical-section",
+ "embedded-io-async",
+ "futures-util",
+ "heapless 0.8.0",
 ]
 
 [[package]]
@@ -508,7 +521,7 @@ dependencies = [
  "defmt",
  "embassy-futures",
  "embassy-net-driver-channel",
- "embassy-sync",
+ "embassy-sync 0.6.0",
  "embassy-usb-driver",
  "heapless 0.8.0",
  "ssmarshal",
@@ -836,13 +849,15 @@ checksum = "8d5439c4ad607c3c23abf66de8c8bf57ba8adcd1f129e699851a6e43935d339d"
 [[package]]
 name = "nrf-softdevice"
 version = "0.1.0"
-source = "git+https://github.com/embassy-rs/nrf-softdevice?rev=b53991e#b53991e36da9361f7c53262092f3bd61e4676cb1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "225a21d963b2382617dbbff5953dc8c6c43fe56db5c5155f4d20a30c50c2766d"
 dependencies = [
  "cortex-m",
+ "cortex-m-rt",
  "critical-section",
  "defmt",
  "embassy-futures",
- "embassy-sync",
+ "embassy-sync 0.5.0",
  "embedded-storage",
  "embedded-storage-async",
  "fixed",
@@ -850,13 +865,15 @@ dependencies = [
  "heapless 0.8.0",
  "nrf-softdevice-macro",
  "nrf-softdevice-s140",
+ "nrf52840-pac",
  "num_enum",
 ]
 
 [[package]]
 name = "nrf-softdevice-macro"
 version = "0.1.0"
-source = "git+https://github.com/embassy-rs/nrf-softdevice?rev=b53991e#b53991e36da9361f7c53262092f3bd61e4676cb1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "3af0752f2f12e202fa29f5a8d2f6dcc8a421c7a7e368d9dab7feb6bfe24ff0e9"
 dependencies = [
  "Inflector",
  "darling 0.13.4",
@@ -869,7 +886,8 @@ dependencies = [
 [[package]]
 name = "nrf-softdevice-s140"
 version = "0.1.2"
-source = "git+https://github.com/embassy-rs/nrf-softdevice?rev=b53991e#b53991e36da9361f7c53262092f3bd61e4676cb1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "5ea93a1e11efdafcf914ed6b81b5be0cd99ee8ff6c3060102265ea863a355393"
 
 [[package]]
 name = "nrf51-pac"
@@ -1189,7 +1207,9 @@ checksum = "c08c74e62047bb2de4ff487b251e4a92e24f48745648451635cec7d591162d9f"
 
 [[package]]
 name = "rmk"
-version = "0.5.0"
+version = "0.5.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "d62e5e5c4bff005d198e9f111e784c35527256fb29361a8d14300f8b64091261"
 dependencies = [
  "bitfield-struct",
  "byteorder",
@@ -1200,7 +1220,7 @@ dependencies = [
  "embassy-executor",
  "embassy-futures",
  "embassy-nrf",
- "embassy-sync",
+ "embassy-sync 0.6.0",
  "embassy-time",
  "embassy-usb",
  "embedded-hal 1.0.0",
@@ -1224,7 +1244,9 @@ dependencies = [
 
 [[package]]
 name = "rmk-macro"
-version = "0.4.0"
+version = "0.4.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "0ac125c94d029b05cfc5a6a8498112a9efc6f1412643c3c0e7fed25a4e6ee069"
 dependencies = [
  "cargo_toml",
  "darling 0.20.3",
